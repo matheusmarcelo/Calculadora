@@ -1,0 +1,93 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.calculadora{
+    margin: 100px auto;
+    width: 315px;
+    height: auto;
+    position: relative;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #d0d0d0;
+    box-shadow: 4px 4px 4px #909090;
+    border-radius: 5px;
+}
+
+.tela {
+    position: relative;
+    width: 97%;
+    height: 48px;
+    background-color: cornflowerblue;
+    padding: 6px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.corpo {
+    margin-top: 10px;
+    position: relative;
+    width: 95%;
+    height: auto;
+    padding: 9px;
+    background: #dedede;
+    border-radius: 5px;
+}
+
+.campo {
+    width: 98.5%;
+    height: 47px;
+    border: none;
+    opacity: 0.5;
+    color: black;
+    font-size: 45px;
+    text-align: right;
+}
+
+.botao {
+    margin-top: 4px;
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: cornflowerblue;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px #909090;
+    cursor: pointer;
+}
+
+.operador, .dot {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: cornflowerblue;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px #909090;
+    cursor: pointer;
+}
+
+.operador:hover{
+    background: rgb(81, 135, 236);
+}
+
+.botao:hover{
+    background: rgb(81, 135, 236);
+}
+
+.zero {
+    width: 143px;
+    margin: 1px;
+}
+
+.igual {
+    margin: 5px;
+    position: absolute;
+    height: 83px;
+}
